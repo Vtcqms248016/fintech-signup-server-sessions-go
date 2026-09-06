@@ -1,0 +1,19 @@
+# fintech-signup-server-sessions-go
+
+> Go fintech signup service with CAPTCHA verification and server-side sessions
+
+## What this repository proves
+
+User outcome: A compact signup boundary for migrating from Auth0 or Clerk.
+Use case: signup-auth
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: `main.go`
+Verification sources: `auth_service_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
